@@ -1,0 +1,36 @@
+#main-logo{
+    width: 40px;
+    
+}
+#menuContainer{
+    background: rgba(81,174,214,1);
+    background: -moz-linear-gradient(top, rgba(81,174,214,1) 0%, rgba(21,137,172,1) 50%, rgba(92,180,214,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(81,174,214,1)), color-stop(50%, rgba(21,137,172,1)), color-stop(100%, rgba(92,180,214,1)));
+    background: -webkit-linear-gradient(top, rgba(81,174,214,1) 0%, rgba(21,137,172,1) 50%, rgba(92,180,214,1) 100%);
+    background: -o-linear-gradient(top, rgba(81,174,214,1) 0%, rgba(21,137,172,1) 50%, rgba(92,180,214,1) 100%);
+    background: -ms-linear-gradient(top, rgba(81,174,214,1) 0%, rgba(21,137,172,1) 50%, rgba(92,180,214,1) 100%);
+    background: linear-gradient(to bottom, rgba(81,174,214,1) 0%, rgba(21,137,172,1) 50%, rgba(92,180,214,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51aed6', endColorstr='#5cb4d6', GradientType=0 );
+    position: fixed;
+    /* para que este arriba de todo lo demas */
+    width: 100%;
+    z-index: 9; 
+    height: 56px;
+    top: 0px;
+    border-top: 1px solid white;
+    
+}
+.branding{
+    padding: 5px !important;
+    border-top: none !important;
+    border-right: none !important;
+
+}
+#menuContainer > .item{
+    padding: 15px;
+    color: white;
+    cursor: default;
+    /* para que no aparezca el cursor sino la flechita */
+    border: 1px solid white;
+    display: inline-block;
+} 

@@ -1,0 +1,97 @@
+/* You can add global styles to this file, and also import other style files */
+.avatarFrameOffline{
+    background: rgba(226,226,226,1);
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+    border: 1px, solid white;
+    display: inline-block;
+}
+.center{
+    text-align: center !important;
+}
+.margintop15{
+ margin-top: 15px;
+}
+.marginbottom15{
+ margin-top: 15px;
+}
+.generalContent{
+    margin-top: 56px;
+}
+/* #homeAvatarPicture{
+    max-width: 100px;
+    background: rgba(55,173,0,1);
+    background: -moz-linear-gradient(left, rgba(55,173,0,1) 0%, rgba(25,136,17,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(55,173,0,1)), color-stop(100%, rgba(25,136,17,1)));
+    background: -webkit-linear-gradient(left, rgba(55,173,0,1) 0%, rgba(25,136,17,1) 100%);
+    background: -o-linear-gradient(left, rgba(55,173,0,1) 0%, rgba(25,136,17,1) 100%);
+    background: -ms-linear-gradient(left, rgba(55,173,0,1) 0%, rgba(25,136,17,1) 100%);
+    background: linear-gradient(to right, rgba(55,173,0,1) 0%, rgba(25,136,17,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37ad00', endColorstr='#198811', GradientType=1 );
+} */
+.disblo{
+    display: block !important;
+
+}
+.marginbottom15{
+    margin-bottom:  15px;
+
+}
+.marbo5{
+    margin-bottom: 5px;
+}
+.paddingtop45{
+    padding-top: 45px;
+}
+input[type="file"]{
+    display: none;
+}
+.custom-file-upload{
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 76%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(76%, rgba(181,198,208,1)), color-stop(87%, rgba(216,225,231,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 76%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 76%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 76%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+    background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,1) 76%, rgba(216,225,231,1) 87%, rgba(224,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #8dd2f3;
+
+}
+.avatarImage{
+    /* width:  */
+}
+.avatarFrameonline{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8fc800+26,8fc800+26,afe500+56 */
+    background: #8fc800; /* Old browsers */
+    background: -moz-linear-gradient(left,  #8fc800 26%, #8fc800 26%, #afe500 56%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #8fc800 26%,#8fc800 26%,#afe500 56%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #8fc800 26%,#8fc800 26%,#afe500 56%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc800', endColorstr='#afe500',GradientType=1 ); /* IE6-9 */
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.36);
+    /* -webkit-box-shadow: 3px 3px 21px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 21px 1px rgba(0,0,0,0.75); */
+    display: inline-block;
+
+}
+#homeAvatarPicture{
+    max-width: 100px;
+}
+
+
+
+
